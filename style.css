@@ -81,7 +81,7 @@ section {
 
 .home {
     display: flex;
-    align-item: center;
+    align-items: center;
 }
 
 .home img {
