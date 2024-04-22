@@ -16,14 +16,25 @@
                     <li><a href="#galeri">Galeri</a></li>
                     <li><a href="#blog">Blog</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><a onclick="darkmode()">MODE</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+
+     <!--Initializing function script-->
+     <script>
+        let body = document.body;
+
+        function darkmode() {
+            body.classList.toggle("dark");
+        }
+    </script>
+
     <div class="wrapper">
         <!--Untuk Home-->
         <section id="home">
-            <img src="Foto/rentcar.jpg"/>
+            <img src="Foto/RentCar.jpg"/>
             <div class="kolom">
                 <p class="deskripsi">RentCar.</p>
                 <h2>Rental Mobil Manado</h2>
@@ -84,8 +95,6 @@
             </div>
         </section>
 
-    </div>
-
     <!--Untuk Contact-->
     <div id="contact">
         <div class="wrapper">
@@ -114,4 +123,4 @@
         </div>
     </div>
 </body>
-</html></html>
+</html>
